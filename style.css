@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+body{
+    background-image: url("t1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Bodoni Moda SC", serif;
+    color:black;
+    background-blend-mode: multiply;
+    
+    
+  
+}
+.content
+{
+
+text-align: center;
+}
+.content h1{
+    float: left;
+    font-size: 30px;
+
+    
+}
+.content h3{
+    float: right;
+    font-size: 15px;    
+}
+.content h4{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+   justify-content: center;
+   align-items: center;
+   font-size: 50px;
+}
+.content p{
+
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    font-size: 20px;
+    display: flex;
+ justify-content: center;
+ text-align: center;
+ align-items: center;
+
+}
+.content h2 {
+    position: absolute;
+    top: 65%;
+    left: 50%; /* set left to 50% */
+    transform: translateX(-50%); /* move it 50% to the left */
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 9px;
+    padding: 6px;
+    border: 1px solid #CCCCCC;
+    color:red;
+    background-color:transparent;
+    transition-duration: 2s ;
+    transition-property: background-color;
+ }
+ .content h2:hover {
+    background-color: #CCCCCC;
+    color: black;
+  }
+  .menu{
+    position: absolute;
+    top: 130%;
+
+     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; 
+    text-align: center;
+
+  }
+  .box{
+    position: relative;
+    top: 10%;
+  font-size: 20px;
+ 
+   
+    
+  }
+  .box img {
+    width: 60%;
+    height: 30%;
+    border-radius: 12px;
+    border: 3px solid black;
+    transition: transform 0.5s;
+  }
+  .box img:hover {
+    transform: scale(1.1);
+  }
+  .menu h2{
+    position: absolute;
+    bottom:60%;
+    left: 38%;    
+     font-size: 50px;
+    margin-bottom: 100px;
+  }
+  .benifits{
+    background-image: url("ben3.jpg");
+    background-size: cover;
+   background-repeat: no-repeat;
+    height: 100vh;
+    width: 100wh;
+    position: absolute;
+    top: 185%;
+    left: 0%;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .benifits h3{
+    position: absolute;
+    font-size: 50px;
+
+  }
+  .pont{
+    position: relative;
+    top: 30%;
+   text-align: center;
+   justify-content: center;
+   padding: 30px;
+   
+    
+ 
+  }
+   .pont p{
+    font-size:20px;
+    box-shadow: 1px 2px 2px 2px #CCCCCC ;
+    border-radius: 12px;
+
+   
+  }
+  .pont i{
+    font-size: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  .benifits h4{
+    position: absolute;
+    top: 50%;
+    right: 150%;
+    background-color:transparent;
+    border-radius: 12px;
+    padding: 10px;
+    border: 2px solid #CCCCCC;
+    letter-spacing:2px;
+    color: black;
+    font-size: 20px;
+    transition-duration: 2s;
+    transition-property: background-color;
+  }
+  .benifits h4:hover{
+    background-color:#CCCCCC;
+  }
+  .comment {
+    position: absolute;
+    top:1950px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 97%; /* adjust the width as needed */
+    background-color: #fff; /* add a background color to make it visible */
+    padding: 30px;
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center
+  }
+  .comment h3 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .comment p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .name {
+    font-weight: bold;
+    font-size: 18px;
+    color:orange;
+  }
+  
+
+  .comment i.fa-solid {
+    font-size: 24px;
+    color: #ccc;
+    margin-bottom: 10px;
+  }
+  .fa-brands {
+    padding: 3px;
+    font-size: 30px; /* adjust the font size as needed */
+    cursor: pointer; /* make the icons clickable */
+    transition: color 0.2s ease-in-out; /* add a transition effect */
+    color: black;
+  }
+  
+  .fa-brands:hover {
+    color: #666; /* change the color on hover */
+  }
+
+  /* add a hover effect for each icon */
+  .fa-square-instagram:hover {
+    color: #C13584; /* Instagram's hover color */
+  }
+  
+  .fa-square-facebook:hover {
+    color: #3B5998; /* Facebook's hover color */
+  }
+  
+  .fa-square-whatsapp:hover {
+    color: #1EB755; /* WhatsApp's hover color */
+  }
+  
+  .fa-square-x-twitter:hover {
+    color: #0B7ABA; /* Twitter's hover color */
+  }
+  
+  .fa-square-google-plus:hover {
+    color:red; /* a darker gray color for the envelope icon on hover */
+  }
